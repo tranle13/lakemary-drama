@@ -1,0 +1,29 @@
+.signup-outer {
+    display: flex;
+    position: relative;
+    min-height: 100%;
+    font-family: "Gill Sans", san-serif, serif;
+    font-size: 1.2em;
+    width: 100vw;
+    overflow: auto;
+}
+
+.signin-div > input[type="date"]::before {
+    color: #7f7f7f;
+    content: attr(placeholder) "Birthday\00a0" !important;
+}
+
+.group-input-div {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.input-group-div {
+    width: 48%;
+}
+
+.sign-up {
+    margin-top: 20px;
+}

@@ -1,0 +1,72 @@
+.upper-blob {
+    fill: #81aaa1;
+    animation: upper-blob-animation 5s infinite forwards;
+    transform-origin: 50% 50%;
+}
+
+@keyframes upper-blob-animation {
+    0% {
+        opacity: 20%;
+        transform: translate(0,0);
+    }
+    33% {
+        opacity: 60%;
+        transform: translate(5px, 2px);
+    }
+    66% {
+        opacity: 100%;
+        transform: translate(4px, 5px);
+    }
+    100% {
+        opacity: 20%;
+        transform: translate(0,0);
+    }
+}
+
+.below-blob {
+    fill: #ffeedc;
+    animation: below-blob-animation 5s infinite forwards;
+    transform-origin: 50% 50%;
+}
+@keyframes below-blob-animation {
+    0% {
+        opacity: 20%;
+        transform: translate(0,0);
+    }
+    33% {
+        opacity: 60%;
+        transform: translate(-3px, -4px);
+    }
+    66% {
+        opacity: 100%;
+        transform: translate(4px, -5px);
+    }
+    100% {
+        opacity: 20%;
+        transform: translate(0,0);
+    }
+}
+
+.cls-3 { fill: #22343d; }
+.cls-4 { fill: #ad5544; }
+.cls-5{ fill: #e63c31; }
+.cls-6{ fill: #e3a88d; }
+.cls-7{ fill: #fad7b9; }
+.cls-8{ fill: #c23329; }
+.cls-9{ fill: #1f2933; }
+.cls-10{ fill: #fefefe; }
+.cls-11 {
+    fill: none;
+    stroke: #a3bfe4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+.cls-12{ fill: #508772; }
+.cls-13{ fill: #d69f85; }
+.cls-14 { fill: #3c4176; }
+.cls-15{ fill: #283d47; }
+
+svg {
+    width: 80%;
+}
